@@ -11,8 +11,7 @@ import (
 )
 
 var (
-	addr       string
-	httpClient = &http.Client{}
+	addr string
 )
 
 func init() {
